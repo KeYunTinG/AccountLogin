@@ -12,7 +12,7 @@ router.post('/', (req, res) => {
   users.findOne({ email })
     .then((item) => {
       if ((item) && (item.password === password)) {
-        res.send(`<h1>Welcome! ${item.firstName}</h1 >`)
+        res.send(`<h1>Welcome back, ${item.firstName}!</h1 >`)
       } else {
         res.send("Please Check Your Email or Password.")
       }
