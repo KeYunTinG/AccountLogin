@@ -1,0 +1,20 @@
+{
+  "name": "accountlogin",
+  "version": "1.0.0",
+  "description": "驗證登入資料的頁面",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "express": "^4.18.2",
+    "express-handlebars": "^4.0.2",
+    "mongoose": "^6.7.3"
+  }
+}
